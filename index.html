@@ -1,41 +1,169 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1 class="text-center mt-5 display-4 text-info bg-dark">Hello, world! Pr3ventor is Here!!!</h1>
-       <h2 class="text-center mt-5 display-4 text-info">Comming Soon</h2>
-        <div align="center">
-          <img src="img/profile.png" width="200" height="200">
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio Sam.Root</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  
+</head>
+<body>
+  <div id="particles-js"></div>
+  
+  <header>
+    <div class="contenedor">
+      <nav class="menu">
+        <a href="">Inicio</a>
+        <a href="">Acerca de mi</a>
+        <a href="">Hardening</a>
+        <a href="">SysAdmin</a>
+        <a href="">Contáctme</a>
+        <a href="index2.html">English</a>
+      </nav>
+    <div class="contenedor-texto">
+      
+      <div class="texto">
+        <h1 class="nombre">PR3VENTOR<br> <span class="typed"></span></h1>
         
-            <h3 class="text-center mt-5 display-6 text-info">What is coming?</h3>
-               <h3>  
-                      <ul class="text-center mt-5 display-8 text-info">Articles</ul>
-                      <ul class="text-center mt-5 display-8 text-info">Tutorials</ul >
-                      <ul class="text-center mt-5 display-8 text-info">Videos</ul>
-                      <ul class="text-center mt-5 display-8 text-info">Extreme Hardening</ul>
-                      <ul class="text-center mt-5 display-8 text-info">SysAdmin</ul>
-               </h3>
+      </div>
+    </div>
+    </div>  
+  </header>
+
+  <section class="main">
+    <section class="incio"></section>
+    <section class="acerca-de">
+      <div class="contenedor">
+        <div class="foto">
+          <img src="img/profile.png" width="180" height="180" alt="">
+        </div>
+        <!--<div class="texto">
+          <h3 class="titulo">Acerca de</h3>
+          <p>La formación constante y permanente ha caracterizado mi paso por el mundo informático y audiovisual. Por ello siempre me encuentro en la búsqueda de nuevos retos y nuevos aprendizajes. No hay algo que me apasione mas que la tecnología, esto hace que no distinga entre el trabajo y el entretenimiento cuando del mundo informático se refiere. </p>
+        </div>
+      </div>
+    </section>
+    <section class="servicios">
+      <div class="contenedor">
+        <h3 class="titulos">Servicios</h3>
+        <div class="contendor-trabajos">
+          <div class="trabajos">
+            <div class="thumbs">
+              <img src="img/trabajos/1.jpg" alt="desarrollo web" class="portafolio-img">
+            </div>
+            <div class="descripcion">
+              <p class="nombre">Desarrollo Web</p>
+              <p class="categoria">HTML - CSS - PHP</p>
+            </div>
+          </div>
+          <div class="trabajos">
+            <div class="thumbs">
+              <img src="img/trabajos/2.jpg" alt="soporte tecnico"  class="portafolio-img">
+            </div>
+            <div class="descripcion">
+              <p class="nombre">Soporte Técnico</p>
+              <p class="categoria">Software - Hardware</p>
+            </div>
+          </div>
+          <div class="trabajos">
+            <div class="thumbs">
+              <img src="img/trabajos/3.jpg" alt="seguridad informatica"  class="portafolio-img">
+            </div>
+            <div class="descripcion">
+              <p class="nombre">Seguridad Informática</p>
+              <p class="categoria">Nessus</p>
+            </div>
+          </div>
+          <div class="trabajos">
+            <div class="thumbs">
+              <img src="img/trabajos/4.jpg" alt="calidad de sodtware"  class="portafolio-img">
+            </div>
+            <div class="descripcion">
+              <p class="nombre">Calidad de Software</p>
+              <p class="categoria">Pentahoo</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="certificaciones">
+      <div class="contenedor">
+        <h3 class="titulos">Certificaciones</h3>
+        <div class="contendor-trabajos">
+          <div class="trabajos">
+            <div class="thumbs">
+              <img src="img/certificaciones/metasploit.jpg" alt="desarrollo web"  class="portafolio-img">
+            </div>
+            <div class="descripcion">
+              <p class="nombre">Mastering Metasploit</p>
+              <p class="categoria">Hacking - Exploit</p>
+            </div>
+          </div>
+          <div class="trabajos">
+            <div class="thumbs">
+              <img src="img/certificaciones/hacking_android.jpg" alt="soporte tecnico"  class="portafolio-img">
+            </div>
+            <div class="descripcion">
+              <p class="nombre">Hacking Android</p>
+              <p class="categoria">Hacking - Movil</p>
+            </div>
+          </div>
+          <div class="trabajos">
+            <div class="thumbs">
+              <img src="img/certificaciones/forense.jpg" alt="seguridad informatica"  class="portafolio-img">
+            </div>
+            <div class="descripcion">
+              <p class="nombre">Computo Forense</p>
+              <p class="categoria">Investigacion - Peritaje</p>
+            </div>
+          </div>
+          <div class="trabajos">
+            <div class="thumbs">
+              <img src="img/certificaciones/nmap.jpg" alt="calidad de sodtware"  class="portafolio-img">
+            </div>
+            <div class="descripcion">
+              <p class="nombre">Nmap Pentester</p>
+              <p class="categoria">Escaneo - Puertos</p>
+            </div>
+            
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="contactanos"></section>
+  </section>
+  
+  <footer>
+    <section class="contacto">
+      <div class="contenedor">
+        <h3 class="titulo">Contacto</h3>
+        <form class="formulario" action="">
+          <input type="text" placeholder="Nombre" name="nombre" required="">
+          <input type="text" placeholder="Correo" name="correo" required="">
+          <textarea name="Mensaje" placeholder="Mensaje"></textarea>
+          <input class="boton" type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>-->
+    <section class="redes-sociales">
+      <div class="contenedor">
+        <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="www.linkedin.com/in/samuel-castillo" class="Linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="" class="youtube"><i class="fa fa-youtube"></i></a>
+      </div>
+    </section>
+
+  </footer>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
-  </body>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="./js/main.js"></script> 
+  
+</body>
 </html>
