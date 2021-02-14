@@ -340,7 +340,7 @@ footer .contacto .formulario .boton:hover {
 
 footer .redes-sociales {
   background: #1e2b38;
-  padding: 60px 0; }
+  padding: 5px 0; }
   footer .redes-sociales .contenedor {
     display: flex;
     justify-content: center; }
@@ -356,6 +356,10 @@ footer .redes-sociales {
 
       footer .redes-sociales .contenedor .instagram:hover {
       background: #3f729b; }
+      footer .redes-sociales .contenedor .github:hover {
+      background: #171515; }
+      footer .redes-sociales .contenedor .twitter:hover {
+      background: #00acee; }
       footer .redes-sociales .contenedor .youtube:hover {
       background: #cd201f; }
       footer .redes-sociales .contenedor .Linkedin:hover {
